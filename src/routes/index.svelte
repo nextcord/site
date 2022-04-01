@@ -7,14 +7,20 @@
   <h1>Nextcord</h1>
   <h2>An asynchronous Discord API wrapper in Python</h2>
   <div class="buttons">
-    <button class="btn btn-p"
-      ><div>
-        <span class="material-icons-outlined btn-icon">description</span>Docs
-      </div></button
-    >
-    <button class="btn btn-p"
-      ><div><img class="btn-img btn-icon" src="github.png" alt="GitHub icon" />GitHub</div></button
-    >
+    <a href="https://docs.nextcord.dev">
+      <button class="btn btn-p"
+        ><div>
+          <span class="material-icons-outlined btn-icon">description</span>Docs
+        </div></button
+      >
+    </a>
+    <a href="https://github.com/nextcord">
+      <button class="btn btn-p"
+        ><div>
+          <img class="btn-img btn-icon" src="github.png" alt="GitHub icon" />GitHub
+        </div></button
+      >
+    </a>
   </div>
 </div>
 
@@ -50,6 +56,10 @@
       flex-direction: column;
       align-items: center;
       margin-top: 0.5rem;
+
+      a {
+        text-decoration: none;
+      }
 
       button {
         margin: 0.25rem 0;
