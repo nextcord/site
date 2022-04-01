@@ -32,6 +32,7 @@ h3 {
   align-items: center;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 
   div {
     display: flex;
@@ -47,4 +48,12 @@ h3 {
 .btn-p {
   background-color: $col-acc-p;
   color: $col-fg;
+}
+
+.btn-p:hover {
+  background-color: lighten($col-acc-p, 4%);
+}
+
+.btn-p:active {
+  background-color: darken($col-acc-p, 4%);
 }

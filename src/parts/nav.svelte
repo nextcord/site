@@ -1,6 +1,8 @@
 <nav>
-  <img src="icon.svg" alt="Nextcord icon" />
-  <h1>Nextcord</h1>
+  <a href="/">
+    <img src="icon.svg" alt="Nextcord icon" />
+    <h1>Nextcord</h1>
+  </a>
   <div class="grow" />
   <a href="https://docs.nextcord.dev"><button>Docs</button></a>
   <a href="https://discord.gg/nextcord"><button>Discord</button></a>
@@ -17,6 +19,14 @@
     height: $nav-height;
     background-color: $col-bg-light;
 
+    a {
+      text-decoration: none;
+      color: $col-fg;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
     img {
       width: calc($nav-height * 0.8);
       height: calc($nav-height * 0.8);
@@ -30,6 +40,7 @@
       border: none;
       background-color: $col-bg-light;
       color: $col-fg;
+      cursor: pointer;
     }
 
     button:hover {
