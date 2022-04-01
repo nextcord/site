@@ -8,18 +8,18 @@
   <h2>An asynchronous Discord API wrapper in Python</h2>
   <div class="buttons">
     <a href="https://docs.nextcord.dev">
-      <button class="btn btn-p"
-        ><div>
+      <button class="btn btn-p">
+        <div>
           <span class="material-icons-outlined btn-icon">description</span>Docs
-        </div></button
-      >
+        </div>
+      </button>
     </a>
     <a href="https://github.com/nextcord">
-      <button class="btn btn-p"
-        ><div>
+      <button class="btn btn-p">
+        <div>
           <img class="btn-img btn-icon" src="github.png" alt="GitHub icon" />GitHub
-        </div></button
-      >
+        </div>
+      </button>
     </a>
   </div>
 </div>
