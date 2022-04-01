@@ -2,9 +2,9 @@
   <img src="icon.svg" alt="Nextcord icon" />
   <h1>Nextcord</h1>
   <div class="grow" />
-  <a href="/"><button>Docs</button></a>
-  <a href="/"><button>Discord</button></a>
-  <a href="/"><button>GitHub</button></a>
+  <a href="https://docs.nextcord.dev"><button>Docs</button></a>
+  <a href="https://discord.gg/nextcord"><button>Discord</button></a>
+  <a href="https://github.com/nextcord"><button>GitHub</button></a>
 </nav>
 
 <style lang="scss">
