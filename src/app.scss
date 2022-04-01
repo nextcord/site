@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: $col-bg;
+  color: $col-fg;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  width: 12rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+.btn-icon {
+  margin-right: 0.5rem;
+}
+
+.btn-p {
+  background-color: $col-acc-p;
+  color: $col-fg;
+}
